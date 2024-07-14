@@ -1,4 +1,4 @@
-/////////// Menu data structure
+///////////// Menu data structure
 var menuLinks = [
   { text: "about", href: "/ABOUT" },
   { text: "services", href: "/SERVICES" },
@@ -39,7 +39,7 @@ menuLinks.forEach(function (link) {
   topmenuEl.appendChild(linkEl);
 });
 
-////////////// Creating the Submenu
+////////////////// Creating the Submenu
 
 const subMenuEl = document.getElementById("sub-menu");
 console.log(subMenuEl);
