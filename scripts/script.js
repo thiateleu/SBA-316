@@ -67,3 +67,30 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
   }
 });
+
+//// create a task text, item,span and button form
+const tasktext = tasktext.value;
+const taskitem = document.createElement("div");
+taskitem.className = "task-item";
+const tasktextSpan = document.createElement("span");
+tasktextSpan.textContent = tasktext;
+
+const completeBtn = document.createElement("button");
+completeBtn.textContent("complete");
+completeBtn.addEventListener("click", function () {
+  taskitem.classList.toggle("complete");
+});
+
+const deleteBtn = document.createElement("button");
+deleteBtn.textContent("complete");
+deleteBtn.addEventListener("click", function () {
+  taskitem.removeChild("complete");
+});
+
+/////add append to the bottoms
+taskitem.appendChild(tasktextSpan);
+taskitem.appendChild(completeBtn);
+taskitem.appendChild(deleteBtn);
+
+/////add that to the list
+taskList.appendChild(taskitem);
