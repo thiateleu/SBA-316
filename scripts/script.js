@@ -94,3 +94,18 @@ taskitem.appendChild(deleteBtn);
 
 /////add that to the list
 taskList.appendChild(taskitem);
+
+///////////////////// Reflection  //////////////////////////
+
+/////// What could you have done differently during the planning stages of your project to make the
+// execution easier?
+// take my antecedant code and add some code
+
+// ////// Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects
+// yes it is
+
+//////// What would you add to, or change about your application if given more time?
+//my script file
+
+/////// Use this space to make notes for your future self about anything that you think is important to remember about this process, or that may aid you when attempting something similar again:
+//more concentration in classe, not coding in class just listern the explication and did more exervice by my own.
